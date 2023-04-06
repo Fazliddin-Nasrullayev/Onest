@@ -1,0 +1,27 @@
+.house_list {
+    /* position: absolute; 
+    top: 50%;
+    right: 5px;
+    transform: translate(0%, -50%); */
+    margin-left: 5px;
+    display: flex;
+    padding: 7px;
+    align-items: center;
+    border-radius: 12px;
+    background: #FFFFFF;
+    z-index: -1;
+}
+
+.house_list_item {
+    padding: 13px 17px;
+    border: 1px solid #FFFFFF;
+    border-radius: 70%;
+    cursor: pointer;
+}
+
+.house_list_item:hover {
+    border: 1px solid #000;
+    transition: 0.3s;
+    color: blue;
+
+}
